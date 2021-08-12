@@ -175,4 +175,15 @@ box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 
 }
 
+.Bouton
+{
+    margin-top: 5%;
+    width: 50%;
+    height: 50px;
+    border-color: brown;
+    background:white;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
  
