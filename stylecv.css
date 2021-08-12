@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: rgb(44, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background: #fff;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+
+.container .left_Side
+{
+    position: relative;
+    background: #FFA500;
+    padding: 40px;
+}
+
+.container .right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+
+
+ .profileText .imgBx img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.ContactInfos ul
+{
+    position: relative;
+}
+
+.ContactInfos ul li
+{ 
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.ContactInfos ul li .icon
+{
+   color: #fff;
+}
+
+.ContactInfos ul li span
+{
+    color: #fff;
+}
+
+.ContactInfos .title
+{
+    margin-top: 10%;
+}
+
+.Education .title
+{
+    margin-top: 20%;
+}
+
+.Education h5
+{
+    color: #fff;
+}
+
+.Language
+{
+    margin-top: 20%;
+}
+
+.Language .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(37, 36, 36);
+    display: block;
+    margin-top: 5px;
+}
+
+.Language .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:#fff;
+
+}
+
+._Experience h2
+{
+    font-size: 1.6em;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.Skill
+{
+    margin-top: 10%;
+}
+
+.Skill .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(37, 36, 36);
+    display: block;
+    margin-top: 5px;
+}
+
+.Skill .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:#FFA500;
+
+}
+
+ 
